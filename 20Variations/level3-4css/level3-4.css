@@ -1,0 +1,25 @@
+    body{
+    	background-color:lightblue;
+    	font-family: Courier;
+    	font-size:15px;
+    }
+div.a {
+	text-align:center;
+}
+div.b{
+	text-align:left;
+}
+div.c{
+	text-align:right;
+}
+div.d{
+	text-align:center;
+}
+div.e{
+	text-align:right;
+}	
+
+h1,h2,h3{
+	font-family: cursive;
+	color: #ff5500;
+}

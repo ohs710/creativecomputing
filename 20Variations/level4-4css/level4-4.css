@@ -1,0 +1,17 @@
+h1{
+	font-size:260px;
+	font-family:Helvetica;
+}
+body {
+	font-family: 'Rock Salt', cursive;
+	line-height:100%;
+	color:blue;
+	background-color:black;
+
+}
+	div {
+  margin: 400px;
+  width: 500px;
+  height: 200px;
+}
+}
