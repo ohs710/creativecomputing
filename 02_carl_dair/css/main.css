@@ -1,23 +1,38 @@
-h1,h3,h4{
-	font-size:60px;
+h1{
+	font-size:50px;
 	color:lightblue;
-	font-family: 'Notable', sans-serif;
+	font-family: 'Old Standard TT', serif;
 	text-align:center;
 
 }
+h3{
+font-size:30px;
+	color:lightblue;
+	font-family: 'Old Standard TT', serif;
+	text-align:left;
+}
+h4{
+	font-size:40px;
+	color:lightblue;
+	font-family: 'Old Standard TT', serif;
+	text-align:left;
+}
+
 h2{
 	text-align:left;
-	font-family:Bodoni;
-	font-size:18px;
+	font-family:Helvetica;
+	font-size:30px;
 	font-weight:normal;
-	background-color: violet;
+	margin: 40px auto 40px auto;
+
+	
 }
 
 p{
 	text-align: right;
-	font-family:"Bodoni";
-	font-size:15px;
-	line-height:20px;
+	font-family: 'Old Standard TT', serif;
+	font-size:20px;
+	line-height:30px;
 
 }
 a:hover{
@@ -28,4 +43,33 @@ h3 {
 	
 
 }
+.dropcap{
+	float:Left;
+	display:block;
+	color:red;
+	font-size:100px;
+	padding-left:5px;
+	padding-bottom:8px;
+}
+#container {
+	width:515px;
+	height:390px;
+	background-color:yellow;
 
+}
+#container2{
+	width:300px;
+	height:100px;
+	background-color:orange;
+	text-align:left;
+}
+#container3{
+	width:515px;
+	height:350px;
+	background-color:red;
+	
+}
+
+#list1{
+	text-align:left;
+	font-family: Helvetica;

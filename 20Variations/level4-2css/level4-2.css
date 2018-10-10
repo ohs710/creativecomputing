@@ -1,22 +1,29 @@
 body{
-	background-image:"https://wifflegif.com/tags/276908-gif-cocaine-gifs ("disney.276908-gif-cocaine-gifs"alt="disney
-
+	background-image:url("http://24.media.tumblr.com/tumblr_me9c44ODub1ql8id1o1_500.gif");
+	background-position: center;
+	background-size: cover;
 }
 h1{
 	letter-spacing:3px;
+	color:white;
 }
 h2{
 letter-spacing:6px;	
+color:white;
 }
 h3 {
 	letter-spacing:10px;
+	color:white;
 }
 h4 {
 	letter-spacing:14px;
+	color:red;
 }
 h5 {
 	letter-spacing: 18px;
+	color:red;
 }
 h6 {
 	letter-spacing:23px;
+	color:red;
 }
