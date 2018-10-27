@@ -1,0 +1,174 @@
+
+header{
+	font-family: halyard-display, sans-serif;
+	font-style: normal;
+	font-weight:700;
+	font-size:135px;
+	margin-top:200px;
+	margin-bottom:150px;
+	text-align: center;
+	font-style:medium;
+	display:block;
+	position:relative;
+	z-index:50;
+
+}
+
+body{
+	margin-left:20px;
+	margin-top:20px;
+}
+
+#fontstylesemib{
+	font-family:halyard-display, sans-serif;
+	font-style:normal;
+	font-size:15px;
+	text-align:right;
+	margin-top:-150px;
+	padding-right:200px;
+	margin-bottom:200px;
+	position:relative;
+}
+
+.gradientcircle1{
+	background-color:grey;
+	background-image: linear-gradient();
+	width:305px;
+	height:305px;
+	border-radius:305px;
+	border-style:solid;
+	border-width:2px;
+	position:absolute;
+	z-index:-900px;
+	transform:translate(235px,-550px);
+}
+
+.gradientbox1{
+	position:relative;
+	border-style:solid;
+	background-color:grey;
+	border-color:lightgrey;
+	border-width:2px;
+	width:280px;
+	height:200px;
+	margin-left:300px;
+}
+
+.gradientcircle2{
+	background-color:grey;
+	width:205px;
+	height:205px;
+	border-radius:205px;
+	border-style:solid;
+	border-width:2px;
+	position:absolute;
+	margin-left:100px;
+	position:relative;
+
+}
+
+.gradienttriangle1{
+
+}
+
+.gradientcircle3{
+	background-color:solid transparent;
+	width:205px;
+	height:205px;
+	border-radius:205px;
+	border-style:solid;
+	border-width:2px;
+	margin-left:100px;
+	position:relative;
+	transform:translate(50px,-100px);
+
+}
+
+
+h6{
+font-family:halyard-display, sans-serif;
+font-style:normal;
+font-size:10px;
+text-align:left;
+
+}
+h5{
+font-family:halyard-display, sans-serif;
+font-style:normal;
+font-size:20px;
+text-align:left;
+}
+h4{
+font-family:halyard-display, sans-serif;
+font-style:normal;
+font-size:30px;
+text-align:left;
+}
+h3{
+font-family:halyard-display, sans-serif;
+font-style:normal;
+font-size:45px;
+text-align:left;
+}
+h2{
+font-family:halyard-display, sans-serif;
+font-style:normal;
+font-size:55px;
+text-align:left;
+}
+h1{
+font-family:halyard-display, sans-serif;
+font-style:normal;
+font-size:80px;
+text-align:left;
+}
+.longgradientrectangle{
+
+}
+
+.FamilyOverview{
+	font-family:halyard-display, sans-serif;
+	font-style:normal;
+	font-color:white;
+	font-size:15px;
+	background-color:grey;
+	width:600px;
+	height:800px;
+	text-align:left;
+
+
+}
+
+#designernames{
+	font-family: halyard-display, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size:45px;
+	text-align:left;
+	margin-top:250px;
+	margin-left:20px;
+	display:block;
+}
+p{
+	font-family: halyard-display, sans-serif;
+	text-align:left;
+	margin-left:20px;
+	margin-bottom:50px;
+	padding-top:20px;
+
+}
+
+.lowercase
+
+
+
+
+
+
+
+
+
+
+
+
+

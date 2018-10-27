@@ -1,11 +1,14 @@
 body{
-	
-}
+
+	}
+
+
+
 .ipadbackground1{
 	position:absolute;
 	background-color:white;
 	border-style:solid;
-	border-color:lightgrey;
+	border-color:darkgrey;
 	border-width:2px;
 	width:280px;
 	height:400px;
@@ -29,7 +32,7 @@ body{
 	
 }
 .cameraglare{
-		position:absolute;
+	position:absolute;
 	width:3px;
 	height:3px;
 	border-radius:3px;
@@ -37,18 +40,22 @@ body{
 	transform:translate(154px,-28px);
 	background-color:grey;
 }
+
 .ipadbackground2{
 	background-color:silver;
-	margin:50px;
 	width:280px;
-	height:400px;
+	height:396px;
 	border-radius:20px;
+	border-style:solid;
+	border-width:5px;
+	border-color:darkgrey;
 	z-index:-20px;
-	float:right;
 	margin:20px;
-	z-index:-10px;
-
-
+	z-index:-40px;
+	float:right;
+	position:fixed;
+	transform:translate(300px,0px);
+	
 }
 .homebutton{
 	background-color:white;
@@ -68,13 +75,13 @@ body{
 	border-radius:20px;
 	z-index:40px;
 	border-style:white 2px;
-	transform:translate(455px,-9px);
+	transform:translate(335px,-5px);
 }
 .homescreen{
 	background-color:powderblue;
 	border-style:solid;
 	border-width:2px;
-	border-color:lightgrey;
+	border-color:darkgrey;
 	position:fixed;
 	padding-top:10px;
 	width:243px;
@@ -84,18 +91,40 @@ body{
 	transform:translate(8px,-37px);
 }
 .backinnercamera{
-	background-color:darkgrey;
-	width:15px;
-	height:15px;
+	background-color:rgb(38, 38, 38);
+	width:14px;
+	height:14px;
 	border-style:solid;
 	border-color:grey;
 	border-width:1px;
-	border-radius:15px;
+	border-radius:14px;
 	z-index:40px;
-	border-style:white 2px;
-	transform:translate(459px,-30px);
+	position:relative;
+	transform:translate(340px,-25px);
 }
 
+.volumebuttons1{
+	background-color:lightgrey;
+	width:5px;
+	height:40px;
+	border-radius:2px;
+	transform:translate(320px,-20px);
+}
+.volumebuttons2{
+	background-color:lightgrey;
+	width:5px;
+	height:40px;
+	border-radius:2px;
+	transform:translate(320px,-10px);
+}
+.lockbutton{
+	background-color:lightgrey;
+	width:5px;
+	height:40px;
+	border-radius:2px;
+	transform:translate(540px,-140px);
+	transform:rotateY(
+}
 
 
 

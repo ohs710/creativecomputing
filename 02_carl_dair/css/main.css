@@ -28,6 +28,16 @@ h2{
 	
 }
 
+.HarmonyandContrast:hover{
+	background-color:green;
+	cursor:pointer;
+	transition-property: background-color;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in;
+	transition-delay: 0.2s; 
+
+}
+
 p{
 	text-align: right;
 	font-family: 'Old Standard TT', serif;
