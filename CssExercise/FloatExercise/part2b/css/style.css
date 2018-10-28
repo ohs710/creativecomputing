@@ -1,0 +1,78 @@
+body{
+	background-color:white;
+	margin-top:50px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:50px;
+	font-family:halyard-display, sans-serif;
+	font-style:normal;
+	display:block;
+	float:center;
+
+	}
+p{
+	text-indent:5em;
+}
+
+#floatbox1{
+	width: 10px;
+	height: 500px ;
+	background-color: rgb(255, 255, 179);
+	position: fixed;
+	float:inherit;
+	overflow:hidden;
+	transform:translate(40px,30px);
+
+
+}
+#floatbox2{
+	width: 200px;
+	height: 200px ;
+	background-color: rgb(255, 179, 255);
+	margin-bottom:50px;
+	position: fixed;
+	z-index:-500;
+	overflow:hidden;
+	transform:translate(100px,-300px);
+
+}
+#floatbox3{
+	width: 90px;
+	height: 290px ;
+	margin-bottom:90px;
+	background-color: rgb(179, 236, 255);
+	position: fixed;
+	overflow:hidden;
+	transform:translate(900px,-640px);
+
+}
+#floatbox4{
+	width: 600px;
+	height: 30px ;
+	margin-bottom:90px;
+	background-color: rgb(179, 255, 198);
+	position: fixed;
+	overflow:hidden;
+	transform:translate(30px,-600px);
+
+}
+#floatbox5{
+	width: 250px;
+	height: 202px ;
+	margin-bottom:90px;
+	background-color: 	rgb(255, 236, 179);
+	position: fixed;
+	float:inherit;
+	overflow:hidden;
+	transform:translate(800px,-500px);
+
+}
+#floatbox6{
+	width: 400px;
+	height: 130px ;
+	margin-bottom:90px;
+	background-color: 	rgb(179, 255, 236);
+	position: fixed;
+	overflow:hidden;
+	transform:translate(20px,-600px);
+}
