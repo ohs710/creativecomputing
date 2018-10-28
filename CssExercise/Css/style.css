@@ -2,17 +2,125 @@ header{
 	text-align:center;
 }
 
-#Blackbase{
-	float:left;
-	width:500px;
-	height:500px;
-	background-color: black;
-	
+#chess {
+    width: 640px;
+    height: 640px;
+    margin: 0.5em;
+    border: 2px solid #808080;
 }
 
-#whitebox{
-	width:60px;
-	height:60px;
-	background-color: white;
-	
+#chess div {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
 }
+
+#chess div:nth-child(-2n+8), 
+#chess div:nth-child(8) ~ div:nth-child(-2n+15), 
+#chess div:nth-child(16) ~ div:nth-child(-2n+24), 
+#chess div:nth-child(24) ~ div:nth-child(-2n+31), 
+#chess div:nth-child(32) ~ div:nth-child(-2n+40), 
+#chess div:nth-child(40) ~ div:nth-child(-2n+47), 
+#chess div:nth-child(48) ~ div:nth-child(-2n+56), 
+#chess div:nth-child(56) ~ div:nth-child(-2n+63) {
+    background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+.half-court {
+  width: 600px;
+  height: 300px;
+}
+
+.half-court * {
+  box-sizing: border-box;
+  background-color: green;
+}
+
+.long {
+  height: 300px;
+  width: 100px;
+  border-right: 1px solid white;
+  float: left;
+}
+
+.middle-section {
+  float: left;
+  width: 400px;
+  height: 300px;
+  border-right: 1px solid white;
+}
+
+.wide {
+  width: 400px;
+  height: 100px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.square {
+  width: 199px;
+  height: 200px;
+  float: left;
+}
+
+#left-square {
+  border-right: 1px solid white;
+}
+.secondhalf-court{
+    width: 600px;
+    height: 300px;
+}
+.secondhalf-court * {
+   box-sizing: border-box;
+   background-color: green;
+}
+.longer{
+    height: 300px;
+    width: 100px;
+    border-right: 1px solid white;
+    float: left;
+    border-left:1px solid white;
+}
+
+.bottomiddle{
+  float: left;
+  width: 400px;
+  height: 300px;
+  border-right: 1px solid white;
+}
+.wider{
+    width: 400px;
+  height: 100px;
+  border-top: 2px solid white;
+  border-right: 1px solid white;
+}
+.longest{
+	height: 300px;
+  width: 100px;
+  border-right: 1px solid white;
+  float: left;
+
+}
+#right-square {
+  border-left: 3px solid white;
+  ;
+}
+
+.square2{
+	width: 200px;
+  	height: 200px;
+  	float: right;
+}
+#bottomleft{
+	
+
+
