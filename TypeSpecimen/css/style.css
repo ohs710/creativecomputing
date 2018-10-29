@@ -1,10 +1,10 @@
-
-header{
+.header{
 	font-family: halyard-display, sans-serif;
 	font-style: normal;
 	font-weight:700;
 	font-size:135px;
 	margin-top:200px;
+	margin-left:50px;
 	margin-bottom:150px;
 	text-align: center;
 	font-style:medium;
@@ -15,8 +15,8 @@ header{
 }
 
 body{
-	margin-left:20px;
-	margin-top:20px;
+	margin:auto;
+	background-image: linear-gradient(to right, white,grey);
 }
 
 #fontstylesemib{
@@ -47,11 +47,11 @@ body{
 	position:relative;
 	border-style:solid;
 	background-color:grey;
-	border-color:lightgrey;
 	border-width:2px;
 	width:280px;
 	height:200px;
 	margin-left:300px;
+	transform:translate(100px,-100px);
 }
 
 .gradientcircle2{
@@ -68,7 +68,17 @@ body{
 }
 
 .gradienttriangle1{
-
+	font-family: halyard-display, sans-serif;
+	font-style: normal;
+	font-weight:700;
+	font-size:135px;
+	margin-top:200px;
+	margin-bottom:150px;
+	text-align: center;
+	font-style:medium;
+	display:block;
+	position:relative;
+	z-index:50;
 }
 
 .gradientcircle3{
@@ -85,90 +95,236 @@ body{
 }
 
 
-h6{
+.HalyardDisplay1{
 font-family:halyard-display, sans-serif;
 font-style:normal;
-font-size:10px;
+line-height:0.0000000000001rem;
 text-align:left;
-
+margin-left:20px;
 }
+
 h5{
 font-family:halyard-display, sans-serif;
 font-style:normal;
 font-size:20px;
 text-align:left;
+margin-left:20px;
 }
 h4{
 font-family:halyard-display, sans-serif;
 font-style:normal;
 font-size:30px;
 text-align:left;
+margin-left:20px;
 }
 h3{
 font-family:halyard-display, sans-serif;
 font-style:normal;
 font-size:45px;
 text-align:left;
+margin-left:20px;
 }
 h2{
 font-family:halyard-display, sans-serif;
 font-style:normal;
 font-size:55px;
 text-align:left;
+margin-left:20px;
 }
 h1{
 font-family:halyard-display, sans-serif;
 font-style:normal;
 font-size:80px;
 text-align:left;
+margin-left:20px;
 }
 .longgradientrectangle{
 
 }
 
-.FamilyOverview{
-	font-family:halyard-display, sans-serif;
-	font-style:normal;
-	font-color:white;
-	font-size:15px;
-	background-color:grey;
-	width:600px;
-	height:800px;
-	text-align:left;
 
-
-}
-
-#designernames{
-	font-family: halyard-display, sans-serif;
-	font-weight: 700;
-	font-style: italic;
-	font-size:45px;
-	text-align:left;
-	margin-top:250px;
+.blackbackground{
+	background-color:black;
+	width:1000px;
+	height:100px;
+	margin-bottom:20px;
+	margin-right:20px;
 	margin-left:20px;
+	z-index:-100px;
+	position:center;
 	display:block;
+
 }
+.whiteboxes{
+	position:relative;
+	background-color:white;
+	margin-left:100px;
+	margin-right:10px;
+	width:300px;
+	height:200px;
+	transform:translate(2px. 10px);
+}
+
+
+.designernames{
+	font-family: halyard-display, sans-serif;
+	font-weight:700;
+	font-style: italic;
+	font-size:50px;
+	margin-top:10px;
+	width:100%;
+	position:absolute;
+
+}
+
 p{
 	font-family: halyard-display, sans-serif;
 	text-align:left;
-	margin-left:20px;
-	margin-bottom:50px;
-	padding-top:20px;
+	font-style:normal;
+	font-weight:300;
+	margin-bottom:10px;
+	font-size:20px;
+	text-transform:translate(3420px,50px);
+	width:100%;
+	display:inline-flex;
+	float:center;
+	position:static;
+}
+
+.lowercase{
+	font-family: halyard-display, sans-serif;
+	font-weight:700;
+	font-size:200px;
+	font-style: italic;
+	width:100%;
+	transform:translate(-400px,2500px);
+	margin-left:400px;
+	margin-top:10px;
+	display:block;
+}
+.lowercasealphabets{
+	font-family: halyard-display, sans-serif;
+	font-style:normal;
+	font-weight:300;
+	font-size:60px;
+	margin-top:30px;
+	text-align:right;
+}
+
+.uppercase{
+	font-family: halyard-display, sans-serif;
+	font-weight:700;
+	font-style: italic;
+	font-size:100px;
+	margin-bottom:5px;
+	transform:translate(30px,200px);
+	text-align:right;
+	margin-left:10px;
+}
+
+.uppercasealphabets{
+	font-family: halyard-display, sans-serif;
+	font-style:normal;
+	font-weight:10;
+	font-size:60px;
+	margin-top:30px;
+	text-align:left;
+}
+.numbers{
+	font-family: halyard-display, sans-serif;
+	font-weight:700;
+	font-size:150px;
+	font-style: italic;
+	width:100%;
+	transform:translate(-40px,200px);
+	margin-left:100px;
+}
+.numerals{
+	font-family: halyard-display, sans-serif;
+	font-style:normal;
+	font-weight:10;
+	font-size:60px;
+	margin-top:30px;
+}
+.symbols{
+	font-family: halyard-display, sans-serif;
+	font-weight:700;
+	font-size:100px;
+	font-style: italic;
+	display:block;
+	width:100%;
+	transform:translate(-10px,200px);
+	margin-left:100px;
+	
+}
+
+.thesymbols{
+	font-family: halyard-display, sans-serif;
+	font-style:normal;
+	font-weight:10;
+	font-size:60px;
+	margin-top:30px;
+	margin-bottom:400px;
+	letter-spacing:5rem;
+}
+.textsamples{
+	font-family: halyard-display, sans-serif;
+	font-style:normal;
+	font-weight:100;
+	text-align:left;
+	margin-top:100px;
+	display:block;
+	margin-left:10px;
+	letter-spacing:-10;
+	position:static;
 
 }
 
-.lowercase
+.linespacingsample1{
+	font-family: halyard-display, sans-serif;
+	text-align:right;
+	font-style:normal;
+	font-weight:300;
+	margin:auto;
+	font-size:24px;
+	letter-spacing:16px;
+	text-transform:translate(-1020px,50px);
+	width:100%;
+	
 
 
+}
+.linespacinginfo1{
+	font-family: halyard-display, sans-serif;
+	text-align:right;
+	display:inline-flex;
+	font-style:normal;
+	font-weight:100;
+	font-size:1000px;
+	margin-bottom:40px;
+
+}
+
+.linespacingsample2{
+	font-family: halyard-display, sans-serif;
+	font-style:normal;
+	font-weight:10;
+	font-size:60px;
+	margin-top:30px;
+	display:inline-flex;
+}
 
 
-
-
-
-
-
-
-
-
+.linespacingsample3{
+	font-family: halyard-display, sans-serif;
+	text-align:right;
+	font-style:normal;
+	font-weight:300;
+	margin-top:10px;
+	margin-bottom:50px;
+	font-size:20px;
+	text-transform:translate(3420px,50px);
+	width:100%;
+	display:inline-block;
+}
 
