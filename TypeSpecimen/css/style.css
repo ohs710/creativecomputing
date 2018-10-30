@@ -18,7 +18,7 @@ body{
 	margin-top:10px;
 	margin-bottom:10px;
 	overflow-x: hidden;
-  animation: pulse 5s linear;
+  	animation: pulse 5s linear;
 }
 
 @keyframes pulse {
@@ -37,82 +37,184 @@ body{
 	text-align:right;
 	margin-top:-150px;
 	padding-right:200px;
-	margin-bottom:200px;
+	margin-bottom:300px;
 	position:relative;
 }
 
 .gradientcircle1{
 	background-color:grey;
-	background-image: linear-gradient();
-	width:305px;
-	height:305px;
-	border-radius:305px;
-	border-style:solid;
+	width:605px;
+	height:605px;
+	border-radius:405px;
 	border-width:2px;
 	position:absolute;
 	z-index:-900px;
-	transform:translate(235px,-550px);
+	transform:translate(410px,-640px);
 }
+
 
 .gradientbox1{
 	position:relative;
-	border-style:solid;
-	background-color:grey;
-	border-width:2px;
-	width:280px;
+	background-color: grey;
+	width:80px;
 	height:200px;
 	margin-left:300px;
 	transform:translate(100px,-100px);
 }
+.gradientbox1 {
+  background-color: black;
+  transition: background-color .5s;
+}
 
-.gradientcircle2{
-	background-color:grey;
-	width:205px;
-	height:205px;
-	border-radius:205px;
-	border-style:solid;
-	border-width:2px;
-	position:absolute;
-	margin-left:100px;
+.gradientbox1:hover {
+  background-color: white;
+}
+.gradientbox2{
 	position:relative;
-
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(200px,-200px);
+}
+.gradientbox2 {
+  background-color: black;
+  transition: background-color .5s;
 }
 
-.gradienttriangle1{
-	font-family: halyard-display, sans-serif;
-	font-style: normal;
-	font-weight:700;
-	font-size:135px;
-	margin-top:200px;
-	margin-bottom:150px;
-	text-align: center;
-	font-style:medium;
-	display:block;
+.gradientbox2:hover {
+  background-color: white;
+}
+.gradientbox3{
 	position:relative;
-	z-index:50;
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(300px,-300px);
+}
+.gradientbox3 {
+  background-color: black;
+  transition: background-color .75s;
 }
 
-.gradientcircle3{
-	background-color:solid transparent;
-	width:205px;
-	height:205px;
-	border-radius:205px;
-	border-style:solid;
-	border-width:2px;
-	margin-left:100px;
+.gradientbox3:hover {
+  background-color: white;
+}
+.gradientbox4{
 	position:relative;
-	transform:translate(50px,-100px);
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(400px,-400px);
+}
+.gradientbox4 {
+  background-color: black;
+  transition: background-color 1s;
+}
 
+.gradientbox4:hover {
+  background-color: white;
+}
+.gradientbox5{
+	position:relative;
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(500px,-500px);
+}
+.gradientbox5 {
+  background-color: black;
+  transition: background-color 1.2s;
+}
+
+.gradientbox5:hover {
+  background-color: white;
+}
+.gradientbox6{
+	position:relative;
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(500px,-450px);
+}
+.gradientbox6 {
+  background-color: black;
+  transition: background-color 1.5s;
+}
+
+.gradientbox6:hover {
+  background-color: white;
+}
+.gradientboxcenter{
+	position:relative;
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(610px,-770px);
+}
+.gradientboxcenter {
+  background-color: black;
+  transition: background-color 1.5s;
+}
+
+.gradientboxcenter:hover {
+  background-color: white;
+}
+.gradientbox7{
+	position:relative;
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(400px,-700px);
+}
+.gradientbox7 {
+  background-color: black;
+  transition: background-color 1.5s;
+}
+
+.gradientbox7:hover {
+  background-color: white;
+}
+.gradientbox8{
+	position:relative;
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(300px,-700px);
+}
+.gradientbox8 {
+  background-color: black;
+  transition: background-color 1.5s;
+}
+
+.gradientbox8:hover {
+  background-color: white;
+}
+.gradientbox9{
+	position:relative;
+	background-color: grey;
+	width:80px;
+	height:200px;
+	margin-left:300px;
+	transform:translate(200px,-700px);
+}
+.gradientbox9 {
+  background-color: black;
+  transition: background-color 1.5s;
+}
+
+.gradientbox9:hover {
+  background-color: white;
 }
 
 
-.HalyardDisplay1{
-font-family:halyard-display, sans-serif;
-font-style:normal;
-line-height:0.0000000000001rem;
-text-align:left;
-margin-left:20px;
-}
 
 h5{
 font-family:halyard-display, sans-serif;
@@ -149,11 +251,10 @@ font-size:80px;
 text-align:left;
 margin-left:20px;
 }
-.longgradientrectangle{
+
+.HalyardDisplay{
 
 }
-
-
 .blackbackground{
 	background-color:black;
 	width:1000px;
@@ -188,7 +289,27 @@ margin-left:20px;
 	float: left;
 
 }
+.designernames {
+  background-color: black;
+  transition: background-color .5s;
+}
 
+.designernames:hover {
+  background-color: white;
+}
+
+.blackbackground{
+	background-color:black;
+	width:1000px;
+	height:100px;
+	margin-bottom:20px;
+	margin-right:20px;
+	margin-left:20px;
+	z-index:-100px;
+	position:center;
+	display:block;
+
+}
 .designernames p{
 	font-family: halyard-display, sans-serif;
 	text-align:left;
@@ -213,25 +334,36 @@ margin-left:20px;
 	margin-left:400px;
 	display:block;
 }
+
+
 .lowercasealphabets{
 	font-family: halyard-display, sans-serif;
 	font-style:normal;
 	font-weight:300;
 	font-size:60px;
 	margin-top:30px;
+	margin-bottom:300px;
 	text-align:left;
 	width:1000px;
 }
+.lowercase {
+  background-color: white;
+  transition: background-color .5s;
+}
 
+.lowercase:hover {
+    background-image: linear-gradient(pink, powderblue);
+}
 .uppercase{
 	font-family: halyard-display, sans-serif;
 	font-weight:700;
 	font-style: italic;
 	font-size:100px;
-	margin-bottom:5px;
+	margin-bottom:0px;
 	transform:translate(30px,200px);
 	text-align:right;
-	margin-left:10px;
+	margin-left:-30px;
+	width:1000px;
 }
 
 .uppercasealphabets{
@@ -239,24 +371,46 @@ margin-left:20px;
 	font-style:normal;
 	font-weight:10;
 	font-size:60px;
-	margin-top:30px;
+	margin-top:5px;
 	text-align:left;
+}
+.uppercase {
+  background-color: white;
+  transition: background-color .5s ;
+
+}
+
+.uppercase:hover {
+    background-image: linear-gradient(powderblue,pink);
+
 }
 .numbers{
 	font-family: halyard-display, sans-serif;
 	font-weight:700;
 	font-size:150px;
 	font-style: italic;
-	width:100%;
+	width:1000px;
 	transform:translate(-40px,200px);
-	margin-left:100px;
+	margin-left:40px;
+	margin-top:1px;
+
 }
 .numerals{
 	font-family: halyard-display, sans-serif;
 	font-style:normal;
 	font-weight:10;
 	font-size:60px;
-	margin-top:30px;
+	transform:translate(-10px 20px);
+}
+.numbers {
+  background-color: white;
+  transition: background-color .5s ;
+
+}
+
+.numbers:hover {
+    background-image: linear-gradient(pink,powderblue);
+
 }
 .symbols{
 	font-family: halyard-display, sans-serif;
@@ -264,20 +418,30 @@ margin-left:20px;
 	font-size:100px;
 	font-style: italic;
 	display:block;
-	width:100%;
+	width:1000px;
 	transform:translate(-10px,200px);
-	margin-left:100px;
+	margin-left:10px;
 	
 }
 
 .thesymbols{
 	font-family: halyard-display, sans-serif;
 	font-style:normal;
-	font-weight:10;
+	font-weight:300;
 	font-size:60px;
 	margin-top:30px;
 	margin-bottom:400px;
 	letter-spacing:5rem;
+}
+.symbols {
+  background-color: white;
+  transition: background-color .5s ;
+
+}
+
+.symbols:hover {
+    background-image: linear-gradient(powderblue,pink);
+
 }
 
 #blackbackground{
@@ -306,6 +470,7 @@ margin-left:20px;
 
 }
 
+
 #Book { 
 	font-family:halyard-display,sans-serif;
 	font-style:normal;
@@ -323,7 +488,12 @@ margin-left:20px;
 	position:relative;
 	clear:right;
  }
-
+#Book{
+	font-family:halyard-display,sans-serif;
+	font-style:normal;
+	font-size:20px;
+	font-weight:300;
+}
 #Regular {
 	font-family:halyard-display,sans-serif;
 	font-style:normal;
@@ -436,6 +606,7 @@ margin-left:20px;
 	font-weight:700;
 	line-height:84px;
 	font-size:72px;
+	width:1000px;
 
 }
 .linespacingsample2{
