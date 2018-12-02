@@ -1,0 +1,31 @@
+.bluecircles{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	background-color:blue;
+	border:10px solid green;
+}
+.yellowcircles{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background-color:yellow;
+	margin-right:100px;
+	border:10px solid black;
+
+}
+.pinkcircles{
+	width:50px;
+	height:50px;
+	border-radius:50%;
+	background-color:pink;
+	margin-right:10px;
+	margin-left:-100px;
+	border:10px solid black;
+
+}
+.wrapper{
+	display:grid;
+	grid-template-columns:repeat(100,1fr);
+	grid-gap:1vw;
+}

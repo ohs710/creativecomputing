@@ -1,0 +1,46 @@
+header{
+	font-family: hatch, serif;
+	font-style: normal;
+	color:orange;
+	font-weight:700;
+	font-size:135px;
+	margin-top:200px;
+	margin-left:50px;
+	margin-bottom:150px;
+	text-align: center;
+	font-style:medium;
+	position:relative;
+	z-index:50  
+
+}
+#button {
+	font-family:hatch,serif;
+	font-style:italic;
+	font-weight:400;
+	font-size:400px;
+    background-color: #4CAF50;
+    border: none;
+    padding: 25px 42px;
+    text-align: center;
+    display: inline-block;
+    position:relative;
+    font-size: 16px;
+    margin-top:-5px;
+    margin: ;
+    margin-bottom:100px;
+    cursor: pointer;
+    
+
+}
+.button{
+	opacity:0.5%;
+}
+.button:hover{
+	opacity:1%;
+}
+
+body{
+	background-color:powderblue;
+		display:grid;
+  	grid-gap: 1rem;
+}

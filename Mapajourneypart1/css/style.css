@@ -1,0 +1,29 @@
+body{
+	background-color:orange;
+}
+.shoppinglist{
+	margin:auto;
+	font-family: balloon-urw, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size:50px;
+	font-color:black;
+	width:400px;
+	height:700px;
+	background-color:rgb(250, 242, 209);
+	border-radius:10px;
+}
+.list li {
+ 	text-indent: 25px;
+ 	margin:auto;
+ 	font-family: balloon-urw, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	bottom: 1px dotted #ccc;
+}
+p{
+	font-family:balloon-urw, sans-serif;
+	font-weight: 300;
+	font-size:100px;
+}
+
