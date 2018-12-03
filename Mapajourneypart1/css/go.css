@@ -2,13 +2,26 @@ body{
 	background-color:lightgrey;
 }
 
-full-screen-video-wrap{
-
+.fullscreen-video-wrap{
+	position:absolute;
+	float:left;
+	margin-left:150px;
 }
 
 .paragraph1{
-	font-family: ;
-	font-size: ;
-	font-weight: ;
+	font-family: hatch, serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color:white;
 	display:block;
+	position:absolute;
+	margin-left:500px;
+	margin-top:100px;
+	
+}
+
+iframe{
+	position:relative;
+	margin-top:300px;
+	margin-left:200px;
 }
