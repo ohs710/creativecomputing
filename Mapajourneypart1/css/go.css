@@ -10,6 +10,5 @@ full-screen-video-wrap{
 	font-family: ;
 	font-size: ;
 	font-weight: ;
-	position:absolute;
-	margin-left:400px;
+	display:block;
 }
