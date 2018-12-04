@@ -44,6 +44,7 @@ h2{
 	position:absolute;
 	font-family: balloon-urw, sans-serif;
 	font-weight: 700;
+	font-size:40px;
 	font-style: normal;
 	margin-left:100px;
 }
@@ -53,7 +54,7 @@ h2{
 	font-weight: 400;
 	font-style: normal;
 	background-color:white;
-	height:60px;
+	height:90px;
 	display:block;
 	position:absolute;
 	padding-top:10px;
@@ -67,9 +68,10 @@ h3{
 	font-family: hatch, serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size:20px;
 	position:absolute;
 	margin-left:900px;
-	margin-top:1300px;
+	margin-top:2100px;
 	margin-bottom:100px;
 }
 
