@@ -1,5 +1,10 @@
-stripe.classList.add('animate');
+ 
 
-stripe.onclick = function() {
-  stripe.classList.add('animate');
-};
+
+
+ $( function(.switchClass ) {
+    $( "#button" ).on( "click", function() {
+      $( ".newClass" ).switchClass( "newClass", "anotherNewClass", 1000 );
+      $( ".anotherNewClass" ).switchClass( "anotherNewClass", "newClass", 1000 );
+    });
+  } );
