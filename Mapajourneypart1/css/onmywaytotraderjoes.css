@@ -1,0 +1,84 @@
+body{
+	background-color:#F4A460;
+	font-family: balloon-urw, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size:100px;
+}
+
+h1{
+	font-family: balloon-urw, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size:50px;
+	text-align: right
+}
+@-webkit-keyframes movieSkew {
+  0% {
+  	color:white;
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    color: blue;
+    -webkit-transform: translateY(100px) skewX(-20deg);
+  }
+  100% {
+  	color:darkblue;
+    -webkit-transform: translateY(1400px) skewY(-30deg);
+  }  
+}
+
+header {
+  font-family: 'balloon-urw', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size: 140px;
+  -webkit-animation: movieSkew 5.5s linear infinite alternate;  
+  
+}
+
+iframe{
+	margin-bottom:100px;
+	margin-left:500px;
+}
+
+.Eating{
+	 font-family: 'balloon-urw', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size: 140px;
+}
+
+.author{
+	font-family: 'balloon-urw', sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size:50px;
+}
+
+p{
+	font-family: balloon-urw, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+h2{
+	font-family: balloon-urw, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size:50px;
+}
+
+.toggler { width: 500px; height: 200px; position: relative; }
+  
+#button { padding: .5em 1em; text-decoration: none; }
+  
+#effect { position: relative; }
+  
+.newClass { width: 240px;  padding: 1em; letter-spacing: 0; margin: 0; }
+  
+.anotherNewClass { text-indent: 40px; letter-spacing: .2em; width: 410px; height: 100px; padding: 30px; margin: 10px; font-size: 1.1em; }
+
+
+
+
+
