@@ -2,17 +2,20 @@ body{
   background-color: orange;
 }
 .shoppinglist{
-	margin:auto;
+	
 	font-family: balloon-urw, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size:50px;
 	font-color:black;
 	width:420px;
-	height:1200px;
+	height:720px;
 	background-color:rgb(250, 242, 209);
 	border-radius:10px;
-  position:relative;
+  position:absolute;
+  margin-top:40px;
+  margin-bottom:50px;
+  margin-left:30px;
 
 }
 
@@ -20,47 +23,53 @@ p{
 	font-family:balloon-urw, sans-serif;
 	font-weight: 300;
 	font-size:100px;
-	margin-top:100px;
-  position:relative;
+	margin-top:320px;
+  margin-left:700px;
+  position:fixed;
+  float:right;
 }
 
-#list{
+
+.almondbutter{
   font-family: balloon-urw, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  font-size:50px;
-  position:relative;
-
+  margin-left:10px;
 }
-#almondbutter+ div {
+.almondbutter+ div {
   display: none;
 }
-#almondbutter:hover +div {
-  display: block;
+.almondbutter:hover + div {
+  display: inline;
 }
 .image {
    position:relative;
    display:inline-block;
+
 }
-.overlay {
-   display:none;
-}
-.image:hover .overlay {
+
+.almondbutter:hover div  {
    width:100%;
    height:100%;
    position:absolute;
    top:0;
    left:0;
    display:inline-block;
-   -webkit-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
    -moz-box-sizing:border-box;
    box-sizing:border-box;}
 
+.rusticobread{
+  font-family: balloon-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   margin-left:10px;
+}
 
-#rusticobread+ div {
+.rusticobread+ div {
   display: none;
 }
-#rusticobread:hover +div {
+.rusticobread:hover + div {
   display: block;
 }
 .image1 {
@@ -81,12 +90,17 @@ p{
    -moz-box-sizing:border-box;
    box-sizing:border-box;}
 
+.strawberry{
+  font-family: balloon-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   margin-left:10px;
+}
 
-
-#strawberry+ div {
+.strawberry+ div {
   display: none;
 }
-#strawberry:hover +div {
+.strawberry:hover +div {
   display: block;
 }
 .image2 {
@@ -107,11 +121,17 @@ p{
    -moz-box-sizing:border-box;
    box-sizing:border-box;}
 
+.almondmilk{
+  font-family: balloon-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   margin-left:10px;
+}
 
-#almondmilk+ div {
+.almondmilk+ div {
   display: none;
 }
-#almondmilk:hover +div {
+.almondmilk:hover +div {
   display: block;
 }
 .image3 {
@@ -132,15 +152,25 @@ p{
    -moz-box-sizing:border-box;
    box-sizing:border-box;}
 
-#chickenbreast+ div {
+.chickenbreast{
+  font-family: balloon-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   margin-left:10px;
+}
+
+.chickenbreast+ div {
   display: none;
 }
-#chickenbreast:hover +div {
+.chickenbreast:hover +div {
   display: block;
 }
 .image4 {
    position:relative;
    display:inline-block;
+}
+#image4{
+  margin-left:50px;
 }
 .overlay {
    display:none;
@@ -156,11 +186,16 @@ p{
    -moz-box-sizing:border-box;
    box-sizing:border-box;}
 
-
-#spinach+ div {
+.spinach{
+  font-family: balloon-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   margin-left:10px;
+}
+.spinach+ div {
   display: none;
 }
-#spinach:hover +div {
+.spinach:hover +div {
   display: block;
 }
 .image5 {
@@ -181,19 +216,23 @@ p{
    -moz-box-sizing:border-box;
    box-sizing:border-box;}
 
-#apples+ div {
+.fujiapples{
+  font-family: balloon-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+   margin-left:10px;
+}
+.fujiapples+ div {
   display: none;
 }
-#apples:hover +div {
+.fujiapples:hover +div {
   display: block;
 }
 .image6 {
    position:relative;
    display:inline-block;
 }
-.overlay {
-   display:none;
-}
+
 .image6:hover .overlay {
    width:100%;
    height:100%;
