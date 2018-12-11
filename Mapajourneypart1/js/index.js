@@ -30,11 +30,8 @@ function typewriter()
  } else {
   setTimeout("typewriter()", iSpeed);
  }
-}
+};
 
 
 typewriter();
 
-$(document).ready(function(){
-	document.getElementById("audio").play();
-};
