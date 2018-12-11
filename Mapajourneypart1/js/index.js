@@ -1,4 +1,3 @@
-// set up text to print, each item in array is new line
 var aText = new Array(
 "My Journey to Trader Joe's"
 );
@@ -35,3 +34,7 @@ function typewriter()
 
 
 typewriter();
+
+$(document).ready(function(){
+	document.getElementById("audio").play();
+};
