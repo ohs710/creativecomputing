@@ -17,49 +17,82 @@
     </head>
     <body>
     <div class="shoppinglist">Shopping List
-
+    <div id="myDIV" class="header">
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+<ul id="myUL">
 <div id="list"></div>
 
-		<div class="almondbutter"> almond butter</div>
+		<li>
+            <div class="almondbutter"> almond butter</div>
             <div id="image">
-        <img src="img/almondbutter.jpg" width="90"height="160"> 
-       </div>
+            <img src="img/almondbutter.jpg" width="90"height="160"> 
+            </div>
+        </li>
         
 
-		<div class= "rusticobread">rustico whole wheat bread</div>
+		<li>
+            <div class= "rusticobread">rustico whole wheat bread</div>
             <div id="image1"><img src="img/rusticobread.jpg" width="170" height="350">
             </div>
+        </li>
 
-
-		<div class="strawberry">fresh strawberries</div>
+		<li>
+            <div class="strawberry">fresh strawberries</div>
             
             <div class="image2">
             <img src="img/strawberries.jpg" width="240" height="190"></div>
+        </li>
 
-		<div class="almondmilk">almond milk </div>
+		<li>
+        <div class="almondmilk">almond milk </div>
+            <div id="image3"><img src="img/almondmilk.jpg"width="190"height="240">
+            </div>
+        </li>
 
-            <div id="image3"><img src="img/almondmilk.jpg"width="190"height="240"></div>
+        <li>
 
 		<div class="chickenbreast">chicken breast </div>
+         <div id="image4"><img src="img/chicken.jpg" width="270" height="240"></div>
+        </li>
 
-            <div id="image4"><img src="img/chicken.jpg" width="270" height="240"></div>
+        <li>
+            <div class="spinach">Spinach</div>
+            <div id="image5"><img src="img/spinach.jpg" width="183"  height="200"></div>
+        </li>
 
-        <div class="spinach">Spinach</div>
-            <div id="image5"><img src="img/spinach.jpg" width="183" height="200"></div>
-
-
+       <li>
         <div class="fujiapples"> Fuji Apples</div>
              <div id="image6">
                 <img src="img/fujiapples.jpg" width="250" height="250">
              </div>
+         </li>
+     </ul>
+<p id="isthisall">
+    Is this all? 
+</p>
+	 <button id="btn"> 
+        yes 
+     </button>
+     <button id="btno"> 
+        no
+     </button>
 
-	 
-
+<div id="myDIV" class="header">
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add
+</div>
+</span>
 </div>
 
-<p>
+<p id="ready-text">
 	ok, we are good to <a href="go.html">go!</a>
 </p>
+
+<script type="text/javascript" src="js/list.js">
+    
+</script>
 </body>
 
 
