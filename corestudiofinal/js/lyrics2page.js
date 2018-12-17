@@ -1,5 +1,5 @@
 var aText = new Array(
-"Can't take back the love that I gave you.<br> It's to the point where I love and I hate you"
+"Can't take back the love that I gave you."
 );
 var iSpeed = 100; 
 var iIndex = 0;
