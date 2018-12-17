@@ -1,6 +1,18 @@
-#lyrics7{
+#typedtext{
 font-family: 'Knewave', cursive;
 font-size:100px;
 padding:auto;
 text-align:center;
+color:white;
+}
+
+#next{
+  font-family: 'Knewave', cursive;
+font-size:50px;
+padding:auto;
+text-align:center;
+}
+body{
+	background-color:navy;
+}
 }
