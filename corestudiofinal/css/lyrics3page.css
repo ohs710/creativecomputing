@@ -3,10 +3,27 @@ h2{
 font-family: 'Knewave', cursive;
 font-size:100px;
 padding:auto;
+text-align:center
+color:powderblue;
+}
+#love{
+ font-family: 'Knewave', cursive;
+font-size:200px;
+padding:auto;
+text-align:center;
+color:red;
+} 
+#hate{
+  font-family: 'Knewave', cursive;
+font-size:200px;
+padding:auto;
 text-align:center;
 }
+}
+}
+
 body{
-  background-color:#FB861D;
+  background-color:grey;
 }
 .content {
   margin: 5% 0 0 0%;
