@@ -3,9 +3,9 @@ body{
   background:#dfdfdf;
 }
 h1{
-  text-transform:uppercase;
-  font-size:72px;
-  font-family:'Knewave';
+ 
+  font-size:100px;
+  font-family:'Courier';
   padding:30px;
   letter-spacing:20px;
 }
